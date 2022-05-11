@@ -1,4 +1,4 @@
-﻿using E_Jogos.Models;
+﻿using EJOGOS.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace E_Jogos.Controllers
+namespace EJOGOS.Controllers
 {
     public class HomeController : Controller
     {

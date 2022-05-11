@@ -1,22 +1,21 @@
 ﻿using System.IO;
 
-namespace E_Jogos.Models
+namespace EJOGOS.Models
 {
-    public class EquipBase
+    public class EquipeBase
     {
         public void CriarPastaOuArquivo(string caminho)
         {
-            // nome da pasta / NomeDoArquivo.csv
-
+            // "nome da pasta/nomedoarquivo.csv"
             string pasta = caminho.Split('/')[0];
 
-            // se o diretorio não existir, criar a pasta
-            if(!Directory.Exists(pasta))
+            //se o diretorio nao existir, criar a pasta.
+            if (!Directory.Exists(pasta))
             {
                 Directory.CreateDirectory(pasta);
             }
-            
-            if(!File.Exists(caminho))
+
+            if (!File.Exists(caminho))
             {
                 File.Create(caminho);
             }

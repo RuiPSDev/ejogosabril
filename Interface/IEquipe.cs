@@ -1,16 +1,16 @@
-﻿using E_Jogos.Models;
+﻿using EJOGOS.Models;
 using System.Collections.Generic;
 
-namespace E_Jogos.Interface
+namespace EJOGOS.Interface
 {
     public interface IEquipe
     {
-        // Contrato
-        // Representa os métodos que são obrigatórios em uma classe.
+        //Contrato
+        //Representa os métodos que são obrigatoris em
+        // em uma classe.
 
-        void Criar(Equipe novaEquipe);
+        void Criar(Equipe novaequipe);
         List<Equipe> LerEquipes();
-
 
 
     }

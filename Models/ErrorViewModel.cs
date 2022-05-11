@@ -1,6 +1,7 @@
+
 using System;
 
-namespace E_Jogos.Models
+namespace EJOGOS.Models
 {
     public class ErrorViewModel
     {
